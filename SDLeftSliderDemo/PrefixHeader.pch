@@ -1,0 +1,32 @@
+//
+//  PrefixHeader.pch
+//  SDLeftSliderDemo
+//
+//  Created by sundan on 17/3/10.
+//  Copyright © 2017年 lzt. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#define kNotificationLeftSlide @"kNotificationLeftSlide"
+#define KNotificationTapCenterVC @"KNotificationTapCenterVC"
+#define KNotificationEnterCollectVC @"KNotificationEnterCollectVC"
+#define KNotificationShowBanner @"KNotificationShowBanner"
+#define KNotificationEnterFavouriteVC @"KNotificationEnterFavouriteVC"
+
+#define SCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
+#define SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
+
+#define kLeftViewH [UIScreen mainScreen].bounds.size.height
+#define kLeftViewW ([UIScreen mainScreen].bounds.size.width * 0.4)
+
+#define kScale 0.8
+#define kDuration 0.2
+#define kcoverTag 3344
+
+#define RGBCOLOR(r,g,b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1]
+#define RGBACOLOR(r,g,b,a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:(a)]
+#define RGBColor(rgb) RGBCOLOR(rgb,rgb,rgb)
+
+#endif /* PrefixHeader_pch */
